@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.coffeebean.slide.ui.activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:tabIndicatorHeight="0dp">
+        
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_feed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/feed"
+            android:icon="@drawable/ic_blackemptysearch" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_log"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/log"
+            android:icon="@drawable/ic_blackemptytravellog" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_trip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/trip"
+            android:icon="@drawable/ic_blackemptycurrentlocation" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/messages"
+            android:icon="@drawable/ic_blackemptymessages" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_profile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profile"
+            android:icon="@drawable/ic_blackemptyprofil" />
+
+    </android.support.design.widget.TabLayout>
+    
+</RelativeLayout>

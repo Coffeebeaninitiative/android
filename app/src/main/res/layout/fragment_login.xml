@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/darker_gray">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BLUE DOT"
+        android:textSize="32sp"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/blue_dot"/>
+
+    <Button
+        android:id="@+id/bt_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_side_rectangle_dblue"
+        android:textColor="@android:color/white"
+        android:layout_margin="8dp"
+        android:text="facebook"/>
+
+    <Button
+        android:id="@+id/bt_google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_side_rectangle_red"
+        android:textColor="@android:color/white"
+        android:layout_margin="8dp"
+        android:text="google"/>
+
+    <EditText
+        android:id="@+id/ed_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="username"
+        android:textColorHint="@android:color/white"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/rounded_side_rectangle"
+        android:backgroundTint="@android:color/white"/>
+
+    <EditText
+        android:id="@+id/ed_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="password"
+        android:textColorHint="@android:color/white"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_margin="8dp"
+        android:background="@drawable/rounded_side_rectangle"
+        android:backgroundTint="@android:color/white"/>
+
+    <Button
+        android:id="@+id/bt_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:textColor="@android:color/white"
+        android:layout_margin="8dp"
+        android:text="sign up"/>
+
+    <Button
+        android:id="@+id/bt_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:textColor="@android:color/white"
+        android:layout_margin="8dp"
+        android:text="sign in"/>
+
+</LinearLayout>

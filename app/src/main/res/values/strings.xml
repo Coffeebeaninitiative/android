@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Blue dot</string>
+    <string name="feed">Feed</string>
+    <string name="log">Log</string>
+    <string name="trip">Trip</string>
+    <string name="messages">Messages</string>
+    <string name="profile">Profile</string>
+
+</resources>
